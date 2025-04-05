@@ -1,23 +1,21 @@
 # Portal de Notícias
 
-Este projeto é um portal de notícias desenvolvido com HTML5 e CSS3. Ele apresenta um layout moderno , com seções dedicadas para notícias em destaque, as mais lidas da semana e destaques de Inteligência Artificial, além de uma área para anúncios.
+Este projeto é um portal de notícias desenvolvido com HTML5 e CSS3. Ele apresenta um layout moderno e responsivo, com seções dedicadas para notícias em destaque, as mais lidas da semana e destaques de Inteligência Artificial, além de uma área para anúncios.
 
 ## Visão Geral
 
 - **Header:**  
-  Contém a navegação primária e secundária. A navegação primária inclui elementos como o menu, o logo e a busca, enquanto a secundária apresenta links para categorias (por exemplo, "Inteligência Artificial", "Blockchain", "Hologramas", etc.).
-
+  Navegação primária (menu, logo, busca) e secundária (links para categorias).
 - **Main:**  
-  Divide o conteúdo em seções:
-  - **Featured:** Exibe notícias em destaque com imagens, títulos e descrições.
-  - **Weekly:** Lista as notícias mais lidas da semana.
-  - **Destaques da Inteligência Artificial:** Seção com artigos focados em IA, cada um com imagem, título e resumo.
-
+  - **Featured:** Notícias em destaque.  
+  - **Weekly:** Mais lidas da semana.  
+  - **Destaques de IA:** Artigos focados em Inteligência Artificial.  
 - **Aside:**  
-  Área destinada a anúncios e sugestões adicionais de conteúdos.
+  Espaço para anúncios e sugestões de conteúdo.
 
 ## Estrutura do Projeto
 
+```plaintext
 / (raiz)
 ├── index.html          # Página principal do portal
 ├── styles/
@@ -26,36 +24,32 @@ Este projeto é um portal de notícias desenvolvido com HTML5 e CSS3. Ele aprese
     ├── icons/          # Ícones (menu, lupa, etc.)
     ├── images/         # Imagens dos artigos e seções
     └── Ads.png         # Imagem utilizada para anúncios
-
-
-
+```
 
 ## Tecnologias Utilizadas
 
-- **HTML5:** Utilizado para a estrutura semântica do portal.
-- **CSS3:** Responsável pela estilização e layout, com ênfase no uso de grid para organização dos elementos.
-- **Google Fonts:** Fontes personalizadas (Archivo, Fira Code e Poppins) para melhorar a apresentação do texto.
+- **HTML5:** Utilizado para a estrutura semântica do portal.  
+- **CSS3:** Responsável pela estilização e layout (Grid, responsividade etc.).  
+- **Google Fonts:** Fontes personalizadas (Archivo, Fira Code, Poppins).
 
 ## Funcionalidades
 
-- **Layout Responsivo:**  
-  Utiliza CSS Grid para criar um layout que se adapta a diferentes tamanhos de tela.
-
-- **Navegação Intuitiva:**  
-  Duas barras de navegação (primária e secundária) para facilitar o acesso às principais seções do portal.
-
-- **Conteúdo Organizado:**  
-  Seções dedicadas para notícias em destaque, mais lidas e áreas específicas como Inteligência Artificial.
-
-- **Área de Anúncios:**  
-  Seção lateral para exibição de anúncios e conteúdos complementares.
+- **Layout Responsivo:** Usa CSS Grid para se adaptar a diferentes telas.
+- **Navegação Intuitiva:** Barra primária e secundária para fácil acesso a categorias.
+- **Conteúdo Organizado:** Destaques, mais lidas, seção de IA etc.
+- **Área de Anúncios:** Espaço lateral para anúncios ou conteúdo extra.
 
 ## Como Executar
 
-1. Faça o download ou clone este repositório para sua máquina.
-2. Certifique-se de que a estrutura de pastas esteja intacta (especialmente as pastas `styles` e `assets`).
-3. Abra o arquivo `index.html` em um navegador de sua preferência para visualizar o portal.
+1. Faça o download ou clone este repositório.
+2. Mantenha a estrutura de pastas (especialmente `styles` e `assets`).
+3. Abra `index.html` em seu navegador preferido.
 
 ## Considerações Finais
 
-Este projeto serve como base para um portal de notícias e pode ser expandido com novas funcionalidades, como integração com APIs para exibição dinâmica de conteúdo, interatividade com JavaScript e melhorias em SEO e performance.
+Este projeto pode ser facilmente expandido para incluir funcionalidades como:
+- Integração com APIs para conteúdo dinâmico
+- Interatividade com JavaScript
+- Otimizações de SEO e performance
+
+Sinta-se à vontade para adaptar este README conforme as necessidades do seu projeto.
