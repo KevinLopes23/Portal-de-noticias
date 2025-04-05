@@ -18,7 +18,15 @@ Este projeto é um portal de notícias desenvolvido com HTML5 e CSS3. Ele aprese
 
 ## Estrutura do Projeto
 
-/ (raiz) ├── index.html # Página principal do portal ├── styles/ │ └── index.css # Arquivo CSS com a estilização do portal └── assets/ ├── icons/ # Ícones (menu, lupa, etc.) ├── images/ # Imagens dos artigos e seções └── Ads.png # Imagem utilizada para anúncios
+/ (raiz)
+├── index.html          # Página principal do portal
+├── styles/
+│   └── index.css       # Arquivo CSS com a estilização do portal
+└── assets/
+    ├── icons/          # Ícones (menu, lupa, etc.)
+    ├── images/         # Imagens dos artigos e seções
+    └── Ads.png         # Imagem utilizada para anúncios
+
 
 
 
@@ -51,5 +59,3 @@ Este projeto é um portal de notícias desenvolvido com HTML5 e CSS3. Ele aprese
 ## Considerações Finais
 
 Este projeto serve como base para um portal de notícias e pode ser expandido com novas funcionalidades, como integração com APIs para exibição dinâmica de conteúdo, interatividade com JavaScript e melhorias em SEO e performance.
-
-Sinta-se à vontade para adaptar este README conforme as necessidades e as futuras atualizações do projeto.
