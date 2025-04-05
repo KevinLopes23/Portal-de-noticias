@@ -51,5 +51,3 @@ Este projeto pode ser facilmente expandido para incluir funcionalidades como:
 - Integração com APIs para conteúdo dinâmico
 - Interatividade com JavaScript
 - Otimizações de SEO e performance
-
-Sinta-se à vontade para adaptar este README conforme as necessidades do seu projeto.
